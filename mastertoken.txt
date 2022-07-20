@@ -1,0 +1,5 @@
+# BEGIN ANSIBLE MANAGED BLOCK
+  kubeadm join 10.182.0.2:6443 --token jmvozs.8uipkdt0qil9ynix \
+	--discovery-token-ca-cert-hash sha256:1d76380abd6f1a5f4770be80789b2d067c32eb7376e066cc8a70ed781088dbac \
+	--control-plane --certificate-key 32dcb30dc92e265dd5dc85c9b0fa5db00b530340ab2674a88ec75503fa5a6f05
+# END ANSIBLE MANAGED BLOCK
